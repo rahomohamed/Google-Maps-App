@@ -1,16 +1,17 @@
 var map;
 var markers = [];
+var infoWindow;
 
 function initMap() {
   var toronto = {
     lat: 43.648161,
     lng: -79.383075,
   };
-
   map = new google.maps.Map(document.getElementById("map"), {
     center: toronto,
-    zoom: 13,
+    zoom: 11,
   });
+  infoWindow = new google.maps.InfoWindow();
   displayStores();
   showStoresMarkers();
 }
@@ -40,6 +41,7 @@ function displayStores() {
 }
 
 function showStoresMarkers() {
+  var bounds = new google.maps.LatLngBounds();
   stores.forEach(function (store, index) {
     var latlng = new google.maps.LatLng(
       store.coordinates.latitude,
@@ -47,8 +49,10 @@ function showStoresMarkers() {
       console.log(latlng)
 var name = store.name;
 var address = store.address.streetAddressLine1;
+bounds.extend(latlng);
 createMarker(latlng, name, address);
 })
+map.fitBounds(bounds);
 }
 
 function createMarker(latlng, name, address) {
@@ -57,10 +61,10 @@ function createMarker(latlng, name, address) {
     map: map,
     position: latlng
   });
-  // google.maps.event.addListener(marker, 'click', function() {
-  //   infoWindow.setContent(html);
-  //   infoWindow.open(map, marker);
-  // });
+  google.maps.event.addListener(marker, 'click', function() {
+    infoWindow.setContent(html);
+    infoWindow.open(map, marker);
+  });
   markers.push(marker);
 } 
 
