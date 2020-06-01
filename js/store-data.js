@@ -1,5296 +1,5567 @@
 let stores = [{
     "recommendation": {},
-    "storeNumber": "5758-13907",
-    "id": "15051",
-    "name": "La Cienega & Gregory Way",
-    "phoneNumber": "310-659-9562",
+    "storeNumber": "4724-103734",
+    "id": "880",
+    "name": "King & York - PATH Concourse",
+    "phoneNumber": "416-214-2812",
     "coordinates": {
-        "latitude": 34.063584,
-        "longitude": -118.376354
+      "latitude": 43.648161,
+      "longitude": -79.383075
     },
     "regulations": [],
     "address": {
-        "streetAddressLine1": "257 S. La Cienega Blvd.",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Beverly Hills",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "902113301"
+      "streetAddressLine1": "130 King Street West",
+      "streetAddressLine2": "CS12A",
+      "streetAddressLine3": "The Exchange Tower",
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5X 1E1"
     },
     "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
     },
     "brandName": "Starbucks",
     "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["257 S. La Cienega Blvd.", "Beverly Hills, CA 90211"],
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "130 King Street West",
+      "CS12A"
+    ],
     "mop": {
-        "ready": false,
-        "wait": null
+      "ready": false,
+      "wait": null
     },
-    "schedule": [{
+    "schedule": [
+      {
         "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
+        "hours": "Closed",
+        "open": false,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:00 to 04:30",
         "open": true,
         "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:00 to 04:30",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:00 to 04:30",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:00 to 04:30",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:00 to 04:30",
         "open": true,
         "holiday": ""
-    }],
-    "features": [{
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "Closed",
+        "open": false,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
         "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "la-cienega-gregory-way-257-s-la-cienega-blvd-beverly-hills-ca-902113301-u"
-}, {
-    "recommendation": {},
-    "storeNumber": "5577-1851",
-    "id": "14753",
-    "name": "Fairfax & Olympic",
-    "phoneNumber": "(323) 634-7845",
-    "coordinates": {
-        "latitude": 34.057968,
-        "longitude": -118.363715
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "6066 West Olympic Boulevard",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900364402"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["6066 West Olympic Boulevard", "Los Angeles, CA 90036"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "fairfax-olympic-6066-west-olympic-boulevard-los-angeles-ca-9003644"
-}, {
-    "recommendation": {},
-    "storeNumber": "16279-169147",
-    "id": "114059",
-    "name": "Target LA Beverly T-2775",
-    "phoneNumber": "323-602-0637",
-    "coordinates": {
-        "latitude": 34.07526,
-        "longitude": -118.375571
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "8480 Beverly Blvd",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900483414"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "LS",
-    "open": true,
-    "openStatusText": "Open until 9:00 PM",
-    "addressLines": ["8480 Beverly Blvd", "Los Angeles, CA 90048"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "8:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "8:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "8:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "8:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "8:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "8:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "8:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
+        "name": "Oven-Warmed Food"
+      },
+      {
         "code": "WF",
-        "name": "Wireless Hotspot"
-    }, {
+        "name": "Wi-Fi"
+      },
+      {
         "code": "CD",
         "name": "Mobile Payment"
-    }, {
+      },
+      {
         "code": "DR",
         "name": "Digital Rewards"
-    }, {
+      },
+      {
         "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
         "code": "LU",
         "name": "Lunch"
-    }, {
+      }
+    ],
+    "slug": "king-york-path-concourse-130-king-street-west-the-exchange-tower-toronto-on"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "4869-117170",
+    "id": "783",
+    "name": "University and Wellington",
+    "phoneNumber": "416-360-0407",
+    "coordinates": {
+      "latitude": 43.646833,
+      "longitude": -79.384171
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "55 University Av Unit # 3",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5J 2H7"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "55 University Av Unit # 3"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "09:00 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "07:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "07:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "07:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "07:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "07:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "09:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "UE",
+        "name": "tbd - Uber Eats"
+      }
+    ],
+    "slug": "university-and-wellington-55-university-av-unit-3-toronto-on-m-5-j-2-h-7-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "19664-198964",
+    "id": "1006974",
+    "name": "145 Richmond St.W-Hilton Hotel",
+    "phoneNumber": "(416) 360-2821",
+    "coordinates": {
+      "latitude": 43.64971,
+      "longitude": -79.385615
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "145 Richmond Street West",
+      "streetAddressLine2": "Unit 102",
+      "streetAddressLine3": "Hilton Toronto",
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5H 2L2"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "145 Richmond Street West",
+      "Unit 102"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "08:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "07:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "07:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "07:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "07:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "07:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "07:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
         "code": "RW",
         "name": "My Starbucks Rewards"
-    }],
-    "slug": "target-la-beverly-t-2775-8480-beverly-blvd-los-angeles-ca-900483414-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "75244-90562",
-    "id": "9620",
-    "name": "Cedars-Sinai Medical Center",
-    "phoneNumber": "310-423-6260",
-    "coordinates": {
-        "latitude": 34.075081,
-        "longitude": -118.380376
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "8700 Beverly Blvd.",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900481804"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "LS",
-    "open": true,
-    "openStatusText": "Open until 5:00 PM",
-    "addressLines": ["8700 Beverly Blvd.", "Los Angeles, CA 90048"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 5:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 3:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "4:00 AM to 10:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "4:00 AM to 10:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "4:00 AM to 10:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "4:00 AM to 10:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "4:00 AM to 10:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "BA",
-        "name": "Bakery"
-    }],
-    "slug": "cedars-sinai-medical-center-8700-beverly-blvd-los-angeles-ca-900481804-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "12900-154604",
-    "id": "19370",
-    "name": "Wilshire & Curson",
-    "phoneNumber": "323-931-1013",
-    "coordinates": {
-        "latitude": 34.062657,
-        "longitude": -118.35389
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "5757 Wilshire Blvd",
-        "streetAddressLine2": "#106",
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900365810"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["5757 Wilshire Blvd", "#106", "Los Angeles, CA 90036"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "CL",
-        "name": "Starbucks Reserve-Clover Brewed"
-    }, {
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
+      },
+      {
         "code": "CD",
         "name": "Mobile Payment"
-    }, {
+      },
+      {
         "code": "DR",
         "name": "Digital Rewards"
-    }, {
+      },
+      {
         "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
+        "name": "La Boulange"
+      },
+      {
         "code": "XO",
         "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
+      },
+      {
         "code": "LU",
         "name": "Lunch"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
+      },
+      {
         "code": "UE",
         "name": "tbd - Uber Eats"
-    }],
-    "slug": "wilshire-curson-5757-wilshire-blvd-los-angeles-ca-900365810-us"
-}, {
+      }
+    ],
+    "slug": "145-richmond-st-w-hilton-hotel-145-richmond-street-west-hilton-toronto-toronto-on"
+  },
+  {
     "recommendation": {},
-    "storeNumber": "22415-184968",
-    "id": "1006844",
-    "name": "Ralphs Los Angeles #289",
-    "phoneNumber": "323-936-4954",
+    "storeNumber": "3999-144325",
+    "id": "18732",
+    "name": "Wellington & Simcoe - RBC",
+    "phoneNumber": "416 598-0243",
     "coordinates": {
-        "latitude": 34.062884,
-        "longitude": -118.350934
+      "latitude": 43.646004,
+      "longitude": -79.385645
     },
     "regulations": [],
     "address": {
-        "streetAddressLine1": "5601 Wilshire Blvd",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "90036"
+      "streetAddressLine1": "155 Wellington St W",
+      "streetAddressLine2": "137",
+      "streetAddressLine3": "RBC Centre",
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5V 3H1"
     },
     "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "LS",
-    "open": true,
-    "openStatusText": "Open until 9:00 PM",
-    "addressLines": ["5601 Wilshire Blvd", "Los Angeles, CA 90036"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "DR",
-        "name": "Digital Rewards"
-    }],
-    "slug": "ralphs-los-angeles-289-5601-wilshire-blvd-los-angeles-ca-90036-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "5871-30359",
-    "id": "15639",
-    "name": "Beverly & Robertson",
-    "phoneNumber": "310-659-7370",
-    "coordinates": {
-        "latitude": 34.076993,
-        "longitude": -118.383543
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "164 N. Robertson",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "West Hollywood",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900483109"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
     },
     "brandName": "Starbucks",
     "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["164 N. Robertson", "West Hollywood, CA 90048"],
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "155 Wellington St W",
+      "137"
+    ],
     "mop": {
-        "ready": false,
-        "wait": null
+      "ready": false,
+      "wait": null
     },
-    "schedule": [{
+    "schedule": [
+      {
         "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
+        "hours": "Closed",
+        "open": false,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:00 to 05:00",
         "open": true,
         "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:00 to 05:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:00 to 05:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:00 to 05:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:00 to 05:00",
         "open": true,
         "holiday": ""
-    }],
-    "features": [{
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "Closed",
+        "open": false,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
         "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
+        "name": "Oven-Warmed Food"
+      },
+      {
         "code": "WF",
-        "name": "Wireless Hotspot"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
+        "name": "Wi-Fi"
+      },
+      {
         "code": "CD",
         "name": "Mobile Payment"
-    }, {
+      },
+      {
         "code": "DR",
         "name": "Digital Rewards"
-    }, {
+      },
+      {
         "code": "LB",
-        "name": "LaBoulange"
-    }, {
+        "name": "La Boulange"
+      },
+      {
         "code": "XO",
         "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
+      },
+      {
         "code": "LU",
         "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "beverly-robertson-164-n-robertson-west-hollywood-ca-900483109-us"
-}, {
+      }
+    ],
+    "slug": "wellington-simcoe-rbc-155-wellington-st-w-rbc-centre-toronto-on-m-5-v-3-"
+  },
+  {
     "recommendation": {},
-    "storeNumber": "5626-1958",
-    "id": "16379",
-    "name": "Pico & Robertson",
-    "phoneNumber": "310-860-9364",
+    "storeNumber": "17771-181624",
+    "id": "91226",
+    "name": "95 Wellington",
+    "phoneNumber": "(416) 777-0271",
     "coordinates": {
-        "latitude": 34.054929,
-        "longitude": -118.38354
+      "latitude": 43.646746,
+      "longitude": -79.382091
     },
     "regulations": [],
     "address": {
-        "streetAddressLine1": "8783 West Pico Blvd",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900352212"
+      "streetAddressLine1": "95 Wellington Street West",
+      "streetAddressLine2": "CRU # 0100",
+      "streetAddressLine3": "95 Wellington Street West",
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5J 2N7"
     },
     "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
     },
     "brandName": "Starbucks",
     "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["8783 West Pico Blvd", "Los Angeles, CA 90035"],
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "95 Wellington Street West",
+      "CRU # 0100"
+    ],
     "mop": {
-        "ready": false,
-        "wait": null
+      "ready": false,
+      "wait": null
     },
-    "schedule": [{
+    "schedule": [
+      {
         "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
+        "hours": "Closed",
+        "open": false,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:00 to 04:30",
         "open": true,
         "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:00 to 04:30",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:00 to 04:30",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:00 to 04:30",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:00 to 04:30",
         "open": true,
         "holiday": ""
-    }],
-    "features": [{
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "Closed",
+        "open": false,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
         "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "pico-robertson-8783-west-pico-blvd-los-angeles-ca-900352212-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "671-312",
-    "id": "12165",
-    "name": "Olympic & Doheny",
-    "phoneNumber": "(310) 275-0253",
-    "coordinates": {
-        "latitude": 34.059476,
-        "longitude": -118.389593
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "9049 Olympic Blvd.",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Beverly Hills",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "902113541"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["9049 Olympic Blvd.", "Beverly Hills, CA 90211"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "olympic-doheny-9049-olympic-blvd-beverly-hills-ca-902113541-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "9998-98124",
-    "id": "7232",
-    "name": "Wilshire & Detroit",
-    "phoneNumber": "(323) 939-2071",
-    "coordinates": {
-        "latitude": 34.062516,
-        "longitude": -118.345364
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "5353 Wilshire Blvd.",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900364284"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["5353 Wilshire Blvd.", "Los Angeles, CA 90036"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
+        "name": "Oven-Warmed Food"
+      },
+      {
         "code": "WF",
-        "name": "Wireless Hotspot"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "wilshire-detroit-5353-wilshire-blvd-los-angeles-ca-900364284-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "624-346",
-    "id": "11488",
-    "name": "Melrose & Stanley",
-    "phoneNumber": "323-852-9690",
-    "coordinates": {
-        "latitude": 34.083427,
-        "longitude": -118.356145
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "7624 Melrose Avenue",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900467420"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["7624 Melrose Avenue", "Los Angeles, CA 90046"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "melrose-stanley-7624-melrose-avenue-los-angeles-ca-900467420-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "28051-249448",
-    "id": "1014988",
-    "name": "La Cienega and Airdrome",
-    "phoneNumber": "323-333-1529",
-    "coordinates": {
-        "latitude": 34.046133,
-        "longitude": -118.376175
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "1742 S. La Cienega",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900354602"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 11:00 PM",
-    "addressLines": ["1742 S. La Cienega", "Los Angeles, CA 90035"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "4:00 AM to 11:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "4:00 AM to 11:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "4:00 AM to 11:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "4:00 AM to 11:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "4:00 AM to 11:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "4:00 AM to 11:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "4:00 AM to 11:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "DT",
-        "name": "Drive-Thru"
-    }, {
-        "code": "CL",
-        "name": "Starbucks Reserve-Clover Brewed"
-    }, {
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
+        "name": "Wi-Fi"
+      },
+      {
         "code": "RW",
         "name": "My Starbucks Rewards"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "UE",
+        "name": "tbd - Uber Eats"
+      }
+    ],
+    "slug": "95-wellington-95-wellington-street-west-95-wellington-street-wes"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "19550-195624",
+    "id": "1005654",
+    "name": "First Canadian Place",
+    "phoneNumber": "(416) 214-5577",
+    "coordinates": {
+      "latitude": 43.649276,
+      "longitude": -79.381678
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "100 King Street West",
+      "streetAddressLine2": "C11 - Upper Level",
+      "streetAddressLine3": "First Canadian Place",
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5X 1A9"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "100 King Street West",
+      "C11 - Upper Level"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "Closed",
+        "open": false,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "06:30 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "06:30 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "06:30 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "06:30 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "06:30 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "Closed",
+        "open": false,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "CL",
+        "name": "Starbucks Reserve"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      }
+    ],
+    "slug": "first-canadian-place-100-king-street-west-first-canadian-place-toronto-"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "22038-217044",
+    "id": "1006995",
+    "name": "Simcoe Place",
+    "phoneNumber": "(416) 598-2804",
+    "coordinates": {
+      "latitude": 43.645095,
+      "longitude": -79.38584
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "200 Front Street West",
+      "streetAddressLine2": "C014",
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5V 3K2"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "200 Front Street West",
+      "C014"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "Closed",
+        "open": false,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "07:00 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "07:00 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "07:00 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "07:00 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "07:00 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "Closed",
+        "open": false,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "RW",
+        "name": "My Starbucks Rewards"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
         "code": "CS",
         "name": "tbd - Coffee Scale"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "la-cienega-and-airdrome-1742-s-la-cienega-los-angeles-ca-900354602-us"
-}, {
+      }
+    ],
+    "slug": "simcoe-place-200-front-street-west-toronto-on-m-5-v-3-k-2-ca"
+  },
+  {
     "recommendation": {},
-    "storeNumber": "28131-250071",
-    "id": "1016399",
-    "name": "4th and La Brea",
-    "phoneNumber": "(323) 627-5619",
+    "storeNumber": "22836-224386",
+    "id": "1008880",
+    "name": "Metro Centre CA",
+    "phoneNumber": "(416) 597-1352",
     "coordinates": {
-        "latitude": 34.06716,
-        "longitude": -118.344308
+      "latitude": 43.646127,
+      "longitude": -79.388903
     },
     "regulations": [],
     "address": {
-        "streetAddressLine1": "359 South La Brea",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900363540"
+      "streetAddressLine1": "200 Wellington Street West",
+      "streetAddressLine2": "150",
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5V 3C7"
     },
     "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
     },
     "brandName": "Starbucks",
     "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["359 South La Brea", "Los Angeles, CA 90036"],
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "200 Wellington Street West",
+      "150"
+    ],
     "mop": {
-        "ready": false,
-        "wait": null
+      "ready": false,
+      "wait": null
     },
-    "schedule": [{
+    "schedule": [
+      {
         "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
+        "hours": "Closed",
+        "open": false,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:30 to 03:00",
         "open": true,
         "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:30 to 03:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:30 to 03:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:30 to 03:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:30 to 03:00",
         "open": true,
         "holiday": ""
-    }],
-    "features": [{
-        "code": "CL",
-        "name": "Starbucks Reserve-Clover Brewed"
-    }, {
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "Closed",
+        "open": false,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
         "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "RW",
-        "name": "My Starbucks Rewards"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }],
-    "slug": "4th-and-la-brea-359-south-la-brea-los-angeles-ca-900363540-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "25200-156784",
-    "id": "1014696",
-    "name": "Ralph's-Los Angeles, CA #39",
-    "phoneNumber": "323-937-3264",
-    "coordinates": {
-        "latitude": 34.070017,
-        "longitude": -118.343501
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "260 S La Brea Ave",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900363023"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "LS",
-    "open": true,
-    "openStatusText": "Open until 9:00 PM",
-    "addressLines": ["260 S La Brea Ave", "Los Angeles, CA 90036"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }],
-    "slug": "ralphs-los-angeles-ca-39-260-s-la-brea-ave-los-angeles-ca-900363023-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "5373-931",
-    "id": "13336",
-    "name": "Beverly & Detroit",
-    "phoneNumber": "(323) 939-1793",
-    "coordinates": {
-        "latitude": 34.07597,
-        "longitude": -118.344996
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "7122 Beverly Boulevard",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900362569"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["7122 Beverly Boulevard", "Los Angeles, CA 90036"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "beverly-detroit-7122-beverly-boulevard-los-angeles-ca-900362569-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "5232-248024",
-    "id": "1014392",
-    "name": "Santa Monica & Robertson",
-    "phoneNumber": "8584729420",
-    "coordinates": {
-        "latitude": 34.084089,
-        "longitude": -118.385887
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "8951 Santa Monica Blvd.",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "West Hollywood",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900694923"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["8951 Santa Monica Blvd.", "West Hollywood, CA 90069"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "santa-monica-robertson-8951-santa-monica-blvd-west-hollywood-ca-900694923"
-}, {
-    "recommendation": {},
-    "storeNumber": "3575-126987",
-    "id": "9991",
-    "name": "Von's-West Hollywood #2739",
-    "phoneNumber": "(310) 595-1737",
-    "coordinates": {
-        "latitude": 34.083722,
-        "longitude": -118.386627
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "8969 Santa Monica Blvd.",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "West Hollywood",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900694934"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "LS",
-    "open": true,
-    "openStatusText": "Open until 9:00 PM",
-    "addressLines": ["8969 Santa Monica Blvd.", "West Hollywood, CA 90069"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
+        "name": "Oven-Warmed Food"
+      },
+      {
         "code": "WF",
-        "name": "Wireless Hotspot"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "BA",
-        "name": "Bakery"
-    }, {
+        "name": "Wi-Fi"
+      },
+      {
         "code": "RW",
         "name": "My Starbucks Rewards"
-    }],
-    "slug": "vons-west-hollywood-2739-8969-santa-monica-blvd-west-hollywood-ca-900694934"
-}, {
-    "recommendation": {},
-    "storeNumber": "633-351",
-    "id": "14828",
-    "name": "Santa Monica & Westmount",
-    "phoneNumber": "(310) 659-1856",
-    "coordinates": {
-        "latitude": 34.088283,
-        "longitude": -118.379078
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "8595 Santa Monica Blvd.",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "West Hollywood",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900694120"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["8595 Santa Monica Blvd.", "West Hollywood, CA 90069"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
+      },
+      {
         "code": "CD",
         "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
+      },
+      {
         "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
+        "name": "La Boulange"
+      },
+      {
         "code": "XO",
         "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
+      },
+      {
         "code": "LU",
         "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "santa-monica-westmount-8595-santa-monica-blvd-west-hollywood-ca-900694120"
-}, {
-    "recommendation": {},
-    "storeNumber": "5257-292",
-    "id": "16545",
-    "name": "S. Beverly & Charleville",
-    "phoneNumber": "(310) 271-2133",
-    "coordinates": {
-        "latitude": 34.064608,
-        "longitude": -118.39884
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "202 South Beverly Drive",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Beverly Hills",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "902123805"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["202 South Beverly Drive", "Beverly Hills, CA 90212"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "WF",
-        "name": "Wireless Hotspot"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "s-beverly-charleville-202-south-beverly-drive-beverly-hills-ca-902123805"
-}, {
-    "recommendation": {},
-    "storeNumber": "5698-291098",
-    "id": "1024882",
-    "name": "La Brea & Dockweiler",
-    "phoneNumber": "3239342408",
-    "coordinates": {
-        "latitude": 34.051709,
-        "longitude": -118.343924
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "1250 S. La Brea Ave",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "90019"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 11:00 PM",
-    "addressLines": ["1250 S. La Brea Ave", "Los Angeles, CA 90019"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "4:30 AM to 11:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "4:30 AM to 11:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "4:30 AM to 11:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "4:30 AM to 11:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "4:30 AM to 11:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "4:30 AM to 11:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "4:30 AM to 11:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "DT",
-        "name": "Drive-Thru"
-    }, {
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "RW",
-        "name": "My Starbucks Rewards"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
+      },
+      {
         "code": "CS",
         "name": "tbd - Coffee Scale"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UC",
-        "name": "tbd - UCP"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "la-brea-dockweiler-1250-s-la-brea-ave-los-angeles-ca-90019-us"
-}, {
+      }
+    ],
+    "slug": "metro-centre-ca-200-wellington-street-west-toronto-on-m-5-v-3-c-7-"
+  },
+  {
     "recommendation": {},
-    "storeNumber": "5488-1453",
-    "id": "8668",
-    "name": "Wilshire & Highland",
-    "phoneNumber": "(323) 936-2989",
+    "storeNumber": "23689-232644",
+    "id": "1009315",
+    "name": "Union XP Go-West York Concourse",
+    "phoneNumber": "6479309538",
     "coordinates": {
-        "latitude": 34.061907,
-        "longitude": -118.338895
+      "latitude": 43.645042,
+      "longitude": -79.381912
     },
     "regulations": [],
     "address": {
-        "streetAddressLine1": "5020 Wilshire Blvd.",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900364315"
+      "streetAddressLine1": "65 Front Street West",
+      "streetAddressLine2": "CRU 226",
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5J 1E5"
     },
     "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
     },
     "brandName": "Starbucks",
     "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["5020 Wilshire Blvd.", "Los Angeles, CA 90036"],
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "65 Front Street West",
+      "CRU 226"
+    ],
     "mop": {
-        "ready": false,
-        "wait": null
+      "ready": false,
+      "wait": null
     },
-    "schedule": [{
+    "schedule": [
+      {
         "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
+        "hours": "Closed",
+        "open": false,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:00 to 07:00",
         "open": true,
         "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:00 to 07:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:00 to 07:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:00 to 07:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "07:00 to 07:00",
         "open": true,
         "holiday": ""
-    }],
-    "features": [{
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "Closed",
+        "open": false,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
         "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "RW",
+        "name": "My Starbucks Rewards"
+      },
+      {
         "code": "CD",
         "name": "Mobile Payment"
-    }, {
+      },
+      {
         "code": "DR",
         "name": "Digital Rewards"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "wilshire-highland-5020-wilshire-blvd-los-angeles-ca-900364315-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "6512-60520",
-    "id": "15200",
-    "name": "Santa Monica & Fairfax",
-    "phoneNumber": "323-822-9733",
-    "coordinates": {
-        "latitude": 34.091007,
-        "longitude": -118.361711
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "7901 Santa Monica Blvd",
-        "streetAddressLine2": "#107",
-        "streetAddressLine3": "Santa Monica & Fairfax",
-        "city": "West Hollywood",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900465177"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["7901 Santa Monica Blvd", "#107", "West Hollywood, CA 90046"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
+      },
+      {
         "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
+        "name": "La Boulange"
+      },
+      {
         "code": "XO",
         "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "santa-monica-fairfax-7901-santa-monica-blvd-santa-monica-fairfax-west-h"
-}, {
+      }
+    ],
+    "slug": "union-xp-go-west-york-concourse-65-front-street-west-toronto-on-m-5-j-1-e-5-ca"
+  },
+  {
     "recommendation": {},
-    "storeNumber": "20540-196508",
-    "id": "1007389",
-    "name": "Ralph's - Los Angeles #198",
-    "phoneNumber": "310-271-2672",
+    "storeNumber": "58770-292993",
+    "id": "1027506",
+    "name": "Pickup Commerce Court",
+    "phoneNumber": "(437) 2348367",
     "coordinates": {
-        "latitude": 34.055004,
-        "longitude": -118.39791
+      "latitude": 43.648478,
+      "longitude": -79.379352
     },
     "regulations": [],
     "address": {
-        "streetAddressLine1": "9616 W. Pico Blvd",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "90035"
+      "streetAddressLine1": "25 King St West, Concourse Level",
+      "streetAddressLine2": "Unit C250",
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5L 2A1"
     },
     "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "25 King St West, Concourse Level",
+      "Unit C250"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "Closed",
+        "open": false,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "07:00 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "07:00 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "07:00 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "07:00 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "07:00 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "Closed",
+        "open": false,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "UP",
+        "name": "Starbucks Pickup"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "RW",
+        "name": "My Starbucks Rewards"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "PS",
+        "name": "tbd - Playbook Store System"
+      }
+    ],
+    "slug": "pickup-commerce-court-25-king-st-west-concourse-level-toronto-on-m-5-l-2"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "20622-203445",
+    "id": "1006606",
+    "name": "Scotia Plaza",
+    "phoneNumber": "(416) 214-5179",
+    "coordinates": {
+      "latitude": 43.649644,
+      "longitude": -79.379636
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "40 King Street West",
+      "streetAddressLine2": "M128",
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5H 3Y2"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "40 King Street West",
+      "M128"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "Closed",
+        "open": false,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "07:00 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "07:00 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "07:00 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "07:00 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "07:00 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "Closed",
+        "open": false,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "RW",
+        "name": "My Starbucks Rewards"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      }
+    ],
+    "slug": "scotia-plaza-40-king-street-west-toronto-on-m-5-h-3-y-2-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "4830-108885",
+    "id": "577",
+    "name": "Royal Bank Plaza - PATH Concourse",
+    "phoneNumber": "416-214-5120",
+    "coordinates": {
+      "latitude": 43.645978,
+      "longitude": -79.379993
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "200 Bay Street",
+      "streetAddressLine2": "CUR9",
+      "streetAddressLine3": "Royal Bank Plaza",
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5J 2W4"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "200 Bay Street",
+      "CUR9"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "09:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "07:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "07:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "07:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "07:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "07:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "09:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      }
+    ],
+    "slug": "royal-bank-plaza-path-concourse-200-bay-street-royal-bank-plaza-toronto-on-m-5-j-2"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "4459-85822",
+    "id": "1418",
+    "name": "Wellington & John",
+    "phoneNumber": "416-506-0440",
+    "coordinates": {
+      "latitude": 43.645413,
+      "longitude": -79.389516
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "224 Wellington St W",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5V 3T5"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "224 Wellington St W"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "09:00 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "06:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "06:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "06:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "06:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "06:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "09:00 to 04:30",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "CL",
+        "name": "Starbucks Reserve"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "RW",
+        "name": "My Starbucks Rewards"
+      },
+      {
+        "code": "VS",
+        "name": "Verismo System"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      }
+    ],
+    "slug": "wellington-john-224-wellington-st-w-toronto-on-m-5-v-3-t-5-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "4363-8506",
+    "id": "1094",
+    "name": "Brookfield Place - PATH Concourse",
+    "phoneNumber": "416/214-6160",
+    "coordinates": {
+      "latitude": 43.647038,
+      "longitude": -79.37815
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "181 Bay Street",
+      "streetAddressLine2": "C280 & C290",
+      "streetAddressLine3": "BCE Place",
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5J 2T3"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "181 Bay Street",
+      "C280 & C290"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "Closed",
+        "open": false,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "06:30 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "06:30 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "06:30 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "06:30 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "06:30 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "Closed",
+        "open": false,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "CL",
+        "name": "Starbucks Reserve"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "EM",
+        "name": "Starbucks Evening"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "PS",
+        "name": "tbd - Playbook Store System"
+      }
+    ],
+    "slug": "brookfield-place-path-concourse-181-bay-street-bce-place-toronto-on-m-5-j-2-t-3-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "4232-772",
+    "id": "1058",
+    "name": "Queen & John",
+    "phoneNumber": "(416) 595-5868",
+    "coordinates": {
+      "latitude": 43.650006,
+      "longitude": -79.390993
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "250 Queen Street West",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5V 1Z7"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "250 Queen Street West"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "08:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "07:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "07:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "07:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "07:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "07:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "08:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "CL",
+        "name": "Starbucks Reserve"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      }
+    ],
+    "slug": "queen-john-250-queen-street-west-toronto-on-m-5-v-1-z-7-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "21891-207467",
+    "id": "1008640",
+    "name": "Front & John",
+    "phoneNumber": "(416) 551-6320",
+    "coordinates": {
+      "latitude": 43.64423,
+      "longitude": -79.389123
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "300 Front Street West",
+      "streetAddressLine2": "Unit 1",
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5V 0E9"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "300 Front Street West",
+      "Unit 1"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "07:30 to 03:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "07:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "07:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "07:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "07:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "07:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "07:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "RW",
+        "name": "My Starbucks Rewards"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "CS",
+        "name": "tbd - Coffee Scale"
+      }
+    ],
+    "slug": "front-john-300-front-street-west-toronto-on-m-5-v-0-e-9-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "4486-89940",
+    "id": "1262",
+    "name": "Dynamic Funds Tower - 1 Adelaide E",
+    "phoneNumber": "416-955-1638",
+    "coordinates": {
+      "latitude": 43.650386,
+      "longitude": -79.378012
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "1 Adelaide St E",
+      "streetAddressLine2": "Suite 100",
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5C 2V9"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "1 Adelaide St E",
+      "Suite 100"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "Closed",
+        "open": false,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "06:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "06:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "06:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "06:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "06:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "09:00 to 04:30",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "VS",
+        "name": "Verismo System"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      }
+    ],
+    "slug": "dynamic-funds-tower-1-adelaide-e-1-adelaide-st-e-toronto-on-m-5-c-2-v-9-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "18199-184327",
+    "id": "91143",
+    "name": "The Bay on Queen Street within Food",
+    "phoneNumber": "4168614067",
+    "coordinates": {
+      "latitude": 43.65201,
+      "longitude": -79.37913
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "Bay st and Queen st",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5C 2L7"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "open": null,
+    "openStatusText": "",
+    "addressLines": [
+      "Bay st and Queen st"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      }
+    ],
+    "slug": "the-bay-on-queen-street-within-food-bay-st-and-queen-st-toronto-on-m-5-c-2-l-7-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "4802-104798",
+    "id": "729",
+    "name": "King & Peter",
+    "phoneNumber": "416-204-9967",
+    "coordinates": {
+      "latitude": 43.646235,
+      "longitude": -79.39206
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "370 King St W",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5V 1J9"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "370 King St W"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "08:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "07:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "07:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "07:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "07:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "07:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "08:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "CL",
+        "name": "Starbucks Reserve"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "VS",
+        "name": "Verismo System"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      }
+    ],
+    "slug": "king-peter-370-king-st-w-toronto-on-m-5-v-1-j-9-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "22438-212524",
+    "id": "1008856",
+    "name": "Adelaide & Peter",
+    "phoneNumber": "4165967797",
+    "coordinates": {
+      "latitude": 43.647524,
+      "longitude": -79.392651
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "338 Adelaide Street West",
+      "streetAddressLine2": "Unit 2",
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5V 1P8"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "338 Adelaide Street West",
+      "Unit 2"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "09:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "06:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "06:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "06:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "06:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "06:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "06:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "RW",
+        "name": "My Starbucks Rewards"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "CS",
+        "name": "tbd - Coffee Scale"
+      }
+    ],
+    "slug": "adelaide-peter-338-adelaide-street-west-toronto-on-m-5-v-1-p-8-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "4270-186347",
+    "id": "1005445",
+    "name": "Queen & Victoria",
+    "phoneNumber": "4163638555",
+    "coordinates": {
+      "latitude": 43.652433,
+      "longitude": -79.378662
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "1 Queen Street East",
+      "streetAddressLine2": "G5",
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5C 2W5"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "1 Queen Street East",
+      "G5"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "07:30 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "06:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "06:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "06:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "06:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "06:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "07:30 to 06:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "RW",
+        "name": "My Starbucks Rewards"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "PS",
+        "name": "tbd - Playbook Store System"
+      }
+    ],
+    "slug": "queen-victoria-1-queen-street-east-toronto-on-m-5-c-2-w-5-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "27130-106119",
+    "id": "19142",
+    "name": "Longos - Maple Leaf Square",
+    "phoneNumber": "416-366-1717",
+    "coordinates": {
+      "latitude": 43.642475,
+      "longitude": -79.380905
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "15 York St",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5J 0A3"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
     },
     "brandName": "Starbucks",
     "ownershipTypeCode": "LS",
     "open": true,
-    "openStatusText": "Open until 9:00 PM",
-    "addressLines": ["9616 W. Pico Blvd", "Los Angeles, CA 90035"],
+    "openStatusText": "Closes in 8 mins",
+    "addressLines": [
+      "15 York St"
+    ],
     "mop": {
-        "ready": false,
-        "wait": null
+      "ready": false,
+      "wait": null
     },
-    "schedule": [{
+    "schedule": [
+      {
         "dayName": "Today",
-        "hours": "6:00 AM to 9:00 PM",
+        "hours": "07:00 to 09:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tomorrow",
-        "hours": "6:00 AM to 9:00 PM",
+        "hours": "07:00 to 10:00",
         "open": true,
         "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tuesday",
-        "hours": "6:00 AM to 9:00 PM",
+        "hours": "07:00 to 10:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Wednesday",
-        "hours": "6:00 AM to 9:00 PM",
+        "hours": "07:00 to 10:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Thursday",
-        "hours": "6:00 AM to 9:00 PM",
+        "hours": "07:00 to 10:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Friday",
-        "hours": "6:00 AM to 9:00 PM",
+        "hours": "07:00 to 10:00",
         "open": true,
         "holiday": ""
-    }],
-    "features": [{
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "07:00 to 10:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
         "code": "LB",
-        "name": "LaBoulange"
-    }],
-    "slug": "ralphs-los-angeles-198-9616-w-pico-blvd-los-angeles-ca-90035-us"
-}, {
+        "name": "La Boulange"
+      },
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      }
+    ],
+    "slug": "longos-maple-leaf-square-15-york-st-toronto-on-m-5-j-0-a-3-ca"
+  },
+  {
     "recommendation": {},
-    "storeNumber": "505-448",
-    "id": "9033",
-    "name": "N Beverly & S. Santa Monica Blvd",
-    "phoneNumber": "(310) 271-1692",
+    "storeNumber": "56473-289530",
+    "id": "1024387",
+    "name": "439 University Ave",
+    "phoneNumber": "4372213403",
     "coordinates": {
-        "latitude": 34.070585,
-        "longitude": -118.402361
+      "latitude": 43.654442,
+      "longitude": -79.387758
     },
     "regulations": [],
     "address": {
-        "streetAddressLine1": "428 North Beverly Drive",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Beverly Hills",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "902104602"
+      "streetAddressLine1": "439 University Ave",
+      "streetAddressLine2": "101",
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5G 2H6"
     },
     "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
     },
     "brandName": "Starbucks",
     "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:30 PM",
-    "addressLines": ["428 North Beverly Drive", "Beverly Hills, CA 90210"],
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "439 University Ave",
+      "101"
+    ],
     "mop": {
-        "ready": false,
-        "wait": null
+      "ready": false,
+      "wait": null
     },
-    "schedule": [{
+    "schedule": [
+      {
         "dayName": "Today",
-        "hours": "6:00 AM to 6:30 PM",
+        "hours": "08:00 to 07:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "06:30 to 06:00",
         "open": true,
         "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:15 PM",
-        "open": true,
-        "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "06:30 to 06:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "06:30 to 06:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Thursday",
-        "hours": "6:00 AM to 6:15 PM",
+        "hours": "06:30 to 06:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "06:30 to 06:00",
         "open": true,
         "holiday": ""
-    }],
-    "features": [{
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "08:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "CL",
+        "name": "Starbucks Reserve"
+      },
+      {
         "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
         "code": "XO",
         "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
+      },
+      {
         "code": "NB",
         "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
+      },
+      {
         "code": "LU",
         "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
+      },
+      {
         "code": "UE",
         "name": "tbd - Uber Eats"
-    }],
-    "slug": "n-beverly-s-santa-monica-blvd-428-north-beverly-drive-beverly-hills-ca-902104602"
-}, {
+      }
+    ],
+    "slug": "439-university-ave-439-university-ave-toronto-on-m-5-g-2-h-6-ca"
+  },
+  {
     "recommendation": {},
-    "storeNumber": "5350-902",
-    "id": "13332",
-    "name": "Sunset Blvd & N. Kings Rd",
-    "phoneNumber": "(323) 848-8663",
+    "storeNumber": "4361-1347",
+    "id": "1044",
+    "name": "Yonge & Shuter (TEC)",
+    "phoneNumber": "4165938570",
     "coordinates": {
-        "latitude": 34.0957,
-        "longitude": -118.372111
+      "latitude": 43.654015,
+      "longitude": -79.380185
     },
     "regulations": [],
     "address": {
-        "streetAddressLine1": "8363 N.E. Sunset Blvd.",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "West Hollywood",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900691515"
+      "streetAddressLine1": "220 Yonge Street",
+      "streetAddressLine2": "Unit YG-18",
+      "streetAddressLine3": "Toronto Eaton Centre",
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5B 2H1"
     },
     "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
     },
     "brandName": "Starbucks",
     "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["8363 N.E. Sunset Blvd.", "West Hollywood, CA 90069"],
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "220 Yonge Street",
+      "Unit YG-18"
+    ],
     "mop": {
-        "ready": false,
-        "wait": null
+      "ready": false,
+      "wait": null
     },
-    "schedule": [{
+    "schedule": [
+      {
         "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
+        "hours": "Closed",
+        "open": false,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "05:30 to 10:00",
         "open": true,
         "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "05:30 to 10:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "05:30 to 10:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "05:30 to 10:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "05:30 to 10:00",
         "open": true,
         "holiday": ""
-    }],
-    "features": [{
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "06:30 to 10:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
         "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
         "code": "CD",
         "name": "Mobile Payment"
-    }, {
+      },
+      {
         "code": "DR",
         "name": "Digital Rewards"
-    }, {
+      },
+      {
         "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "UC",
-        "name": "tbd - UCP"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }, {
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
         "code": "LU",
         "name": "Lunch"
-    }],
-    "slug": "sunset-blvd-n-kings-rd-8363-n-e-sunset-blvd-west-hollywood-ca-900691515-u"
-}, {
+      }
+    ],
+    "slug": "yonge-shuter-tec-220-yonge-street-toronto-eaton-centre-toronto-on-m"
+  },
+  {
     "recommendation": {},
-    "storeNumber": "28278-245232",
-    "id": "1016593",
-    "name": "Ralphs - LA #291",
-    "phoneNumber": "323-937-4107",
+    "storeNumber": "15824-164464",
+    "id": "68317",
+    "name": "Compass @ St Michael's Hosp-Clinic",
+    "phoneNumber": "4168646060",
     "coordinates": {
-        "latitude": 34.047531,
-        "longitude": -118.339578
+      "latitude": 43.65332,
+      "longitude": -79.377634
     },
     "regulations": [],
     "address": {
-        "streetAddressLine1": "4760 W Pico Blvd",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "90019"
+      "streetAddressLine1": "209 Victoria St",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5B 1T8"
     },
     "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
     },
     "brandName": "Starbucks",
     "ownershipTypeCode": "LS",
-    "open": true,
-    "openStatusText": "Open until 9:00 PM",
-    "addressLines": ["4760 W Pico Blvd", "Los Angeles, CA 90019"],
+    "open": null,
+    "openStatusText": "",
+    "addressLines": [
+      "209 Victoria St"
+    ],
     "mop": {
-        "ready": false,
-        "wait": null
+      "ready": false,
+      "wait": null
     },
-    "schedule": [{
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      }
+    ],
+    "slug": "compass-st-michaels-hosp-clinic-209-victoria-st-toronto-on-m-5-b-1-t-8-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "4766-105713",
+    "id": "755",
+    "name": "Dundas & Elizabeth",
+    "phoneNumber": "4169797052",
+    "coordinates": {
+      "latitude": 43.655491,
+      "longitude": -79.385558
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "150 Dundas Street",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5G 1C6"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "150 Dundas Street"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
         "dayName": "Today",
-        "hours": "6:00 AM to 9:00 PM",
+        "hours": "10:00 to 05:30",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tomorrow",
-        "hours": "6:00 AM to 9:00 PM",
+        "hours": "06:30 to 06:00",
         "open": true,
         "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tuesday",
-        "hours": "6:00 AM to 9:00 PM",
+        "hours": "06:30 to 06:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Wednesday",
-        "hours": "6:00 AM to 9:00 PM",
+        "hours": "06:30 to 06:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Thursday",
-        "hours": "6:00 AM to 9:00 PM",
+        "hours": "06:30 to 06:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Friday",
-        "hours": "6:00 AM to 9:00 PM",
+        "hours": "06:30 to 06:00",
         "open": true,
         "holiday": ""
-    }],
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "10:00 to 05:30",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "VS",
+        "name": "Verismo System"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      }
+    ],
+    "slug": "dundas-elizabeth-150-dundas-street-toronto-on-m-5-g-1-c-6-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "3845-145984",
+    "id": "672",
+    "name": "Longos-Elizabeth St",
+    "phoneNumber": "4165979002",
+    "coordinates": {
+      "latitude": 43.655515,
+      "longitude": -79.385423
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "111 Elizabeth Street",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5G 1P7"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "111 Elizabeth Street"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "08:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "08:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "08:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "08:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "08:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "08:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "08:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      }
+    ],
+    "slug": "longos-elizabeth-st-111-elizabeth-street-toronto-on-m-5-g-1-p-7-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "8178-146684",
+    "id": "18815",
+    "name": "Bay & Dundas (TEC)",
+    "phoneNumber": "4165061602",
+    "coordinates": {
+      "latitude": 43.655931,
+      "longitude": -79.38273
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "65 Dundas Street West",
+      "streetAddressLine2": "303",
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5G 2C3"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "65 Dundas Street West",
+      "303"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "11:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "11:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "11:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "11:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "11:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "11:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "11:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "VS",
+        "name": "Verismo System"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      }
+    ],
+    "slug": "bay-dundas-tec-65-dundas-street-west-toronto-on-m-5-g-2-c-3-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "19355-197904",
+    "id": "1005307",
+    "name": "525 University Avenue",
+    "phoneNumber": "4164081999",
+    "coordinates": {
+      "latitude": 43.655938,
+      "longitude": -79.388517
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "525 University Avenue",
+      "streetAddressLine2": "R1",
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5G 2L3"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "525 University Avenue",
+      "R1"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "Closed",
+        "open": false,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "07:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "07:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "07:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "07:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "07:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "Closed",
+        "open": false,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "RW",
+        "name": "My Starbucks Rewards"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      }
+    ],
+    "slug": "525-university-avenue-525-university-avenue-toronto-on-m-5-g-2-l-3-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "4495-93179",
+    "id": "1266",
+    "name": "Richmond & Spadina",
+    "phoneNumber": "416-504-8586",
+    "coordinates": {
+      "latitude": 43.648073,
+      "longitude": -79.396361
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "438 Richmond Street West",
+      "streetAddressLine2": "Unit #4",
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5V 3S6"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "438 Richmond Street West",
+      "Unit #4"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "08:30 to 06:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "07:30 to 06:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "07:30 to 06:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "07:30 to 06:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "07:30 to 06:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "07:30 to 06:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "07:30 to 06:30",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "UE",
+        "name": "tbd - Uber Eats"
+      }
+    ],
+    "slug": "richmond-spadina-438-richmond-street-west-toronto-on-m-5-v-3-s-6-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "4524-93176",
+    "id": "1256",
+    "name": "Queens Quay & York",
+    "phoneNumber": "416-364-3232",
+    "coordinates": {
+      "latitude": 43.640011,
+      "longitude": -79.380982
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "208 Queens Quay West",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5J 2Y1"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "208 Queens Quay West"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "07:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "07:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "07:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "07:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "07:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "07:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "07:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "RW",
+        "name": "My Starbucks Rewards"
+      },
+      {
+        "code": "VS",
+        "name": "Verismo System"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      }
+    ],
+    "slug": "queens-quay-york-208-queens-quay-west-toronto-on-m-5-j-2-y-1-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "4220-765",
+    "id": "1022",
+    "name": "81 Front St E at Jarvis",
+    "phoneNumber": "416 9559956",
+    "coordinates": {
+      "latitude": 43.648777,
+      "longitude": -79.372519
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "81 Front Street East",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5E 1B8"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "81 Front Street East"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "09:30 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "09:30 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "09:30 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "09:30 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "09:30 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "09:30 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "09:30 to 05:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "CL",
+        "name": "Starbucks Reserve"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "VS",
+        "name": "Verismo System"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      }
+    ],
+    "slug": "81-front-st-e-at-jarvis-81-front-street-east-toronto-on-m-5-e-1-b-8-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "49897-270229",
+    "id": "1020700",
+    "name": "686 Bay Street",
+    "phoneNumber": "4379293865",
+    "coordinates": {
+      "latitude": 43.657398,
+      "longitude": -79.384607
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "686 Bay Street",
+      "streetAddressLine2": "Unit 3",
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5G 0A4"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "686 Bay Street",
+      "Unit 3"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "09:00 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "07:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "07:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "07:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "07:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "07:00 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "09:00 to 04:30",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "RW",
+        "name": "My Starbucks Rewards"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      }
+    ],
+    "slug": "686-bay-street-686-bay-street-toronto-on-m-5-g-0-a-4-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "21589-203526",
+    "id": "1008270",
+    "name": "Yonge & Queens Quay",
+    "phoneNumber": "(416) 603-2948",
+    "coordinates": {
+      "latitude": 43.642362,
+      "longitude": -79.374491
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "1 Yonge Street",
+      "streetAddressLine2": "104",
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5E 1E5"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "1 Yonge Street",
+      "104"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "10:00 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "09:00 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "09:00 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "09:00 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "09:00 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "09:00 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "10:00 to 04:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "RW",
+        "name": "My Starbucks Rewards"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "CS",
+        "name": "tbd - Coffee Scale"
+      },
+      {
+        "code": "UE",
+        "name": "tbd - Uber Eats"
+      }
+    ],
+    "slug": "yonge-queens-quay-1-yonge-street-toronto-on-m-5-e-1-e-5-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "4998-290884",
+    "id": "1024414",
+    "name": "142 Adelaide St E",
+    "phoneNumber": "4167035914",
+    "coordinates": {
+      "latitude": 43.651802,
+      "longitude": -79.372544
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "142 Adelaide Street East",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5C1K9"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "142 Adelaide Street East"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "09:30 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "09:30 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "09:30 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "09:30 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "09:30 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "09:30 to 05:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "09:30 to 05:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      }
+    ],
+    "slug": "142-adelaide-st-e-142-adelaide-street-east-toronto-on-m-5-c-1-k-9-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "4225-767",
+    "id": "1304",
+    "name": "Hospital for Sick Children",
+    "phoneNumber": "(416) 977-0855",
+    "coordinates": {
+      "latitude": 43.657751,
+      "longitude": -79.387508
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "555 University Avenue",
+      "streetAddressLine2": null,
+      "streetAddressLine3": "The Hospital for Sick Children",
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5G 1X8"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": true,
+    "openStatusText": "Open until 10:00",
+    "addressLines": [
+      "555 University Avenue"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "06:00 to 10:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "06:00 to 10:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "06:00 to 10:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "06:00 to 10:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "06:00 to 10:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "06:00 to 10:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "06:00 to 10:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      }
+    ],
+    "slug": "hospital-for-sick-children-555-university-avenue-the-hospital-for-sick-childr"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "23325-228024",
+    "id": "1008680",
+    "name": "Compass @ Ryerson",
+    "phoneNumber": "4169795000",
+    "coordinates": {
+      "latitude": 43.657791,
+      "longitude": -79.381119
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "347 Yonge st",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5B 1s1"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "open": null,
+    "openStatusText": "",
+    "addressLines": [
+      "347 Yonge st"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "features": [
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      }
+    ],
+    "slug": "compass-ryerson-347-yonge-st-toronto-on-m-5-b-1-s-1-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "22078-206624",
+    "id": "1008643",
+    "name": "Spadina & Fort York",
+    "phoneNumber": "(416) 623-0546",
+    "coordinates": {
+      "latitude": 43.64011,
+      "longitude": -79.393277
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "2E Spadina Avenue",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5V 3Y5"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "2E Spadina Avenue"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "07:30 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "06:30 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "06:30 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "06:30 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "06:30 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "06:30 to 06:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "06:30 to 06:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "RW",
+        "name": "My Starbucks Rewards"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "CS",
+        "name": "tbd - Coffee Scale"
+      },
+      {
+        "code": "UE",
+        "name": "tbd - Uber Eats"
+      }
+    ],
+    "slug": "spadina-fort-york-2-e-spadina-avenue-toronto-on-m-5-v-3-y-5-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "4518-93219",
+    "id": "1334",
+    "name": "Toronto General Hospital",
+    "phoneNumber": "416-979-0660",
+    "coordinates": {
+      "latitude": 43.658317,
+      "longitude": -79.389438
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "585 University Avenue",
+      "streetAddressLine2": "R-16",
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5G 2N2"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "585 University Avenue",
+      "R-16"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "06:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "05:30 to 09:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "05:30 to 09:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "05:30 to 09:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "05:30 to 09:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "05:30 to 09:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "06:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      }
+    ],
+    "slug": "toronto-general-hospital-585-university-avenue-toronto-on-m-5-g-2-n-2-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "47988-253946",
+    "id": "1014572",
+    "name": "Loblaw Queen's Quay",
+    "phoneNumber": "4167033419",
+    "coordinates": {
+      "latitude": 43.644697,
+      "longitude": -79.369731
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "10 Lower Jarvis Street",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5E 1Z2"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "10 Lower Jarvis Street"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "07:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "07:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "07:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "07:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "07:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "07:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "07:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
     "features": [],
-    "slug": "ralphs-la-291-4760-w-pico-blvd-los-angeles-ca-90019-us"
-}, {
+    "slug": "loblaw-queens-quay-10-lower-jarvis-street-toronto-on-m-5-e-1-z-2-ca"
+  },
+  {
     "recommendation": {},
-    "storeNumber": "21467-212349",
-    "id": "1006169",
-    "name": "Target @ West Hollywood T-1884",
-    "phoneNumber": "323-603-0004",
+    "storeNumber": "22368-219071",
+    "id": "1006999",
+    "name": "Spadina & Queens Quay",
+    "phoneNumber": "(416) 593-4866",
     "coordinates": {
-        "latitude": 34.089763,
-        "longitude": -118.344716
+      "latitude": 43.637771,
+      "longitude": -79.392283
     },
     "regulations": [],
     "address": {
-        "streetAddressLine1": "7100 Santa Monca Blvd, Suite 201",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "90046"
+      "streetAddressLine1": "10 Lower Spadina Avenue",
+      "streetAddressLine2": "Suite 101",
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5V 2Z2"
     },
     "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "LS",
-    "open": true,
-    "openStatusText": "Open until 9:00 PM",
-    "addressLines": ["7100 Santa Monca Blvd, Suite 201", "Los Angeles, CA 90046"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "7:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "7:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "8:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "8:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "8:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "8:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "8:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }],
-    "slug": "target-west-hollywood-t-1884-7100-santa-monca-blvd-suite-201-los-angeles-ca-900"
-}, {
-    "recommendation": {},
-    "storeNumber": "14629-128224",
-    "id": "18591",
-    "name": "Sunset & Crescent Heights",
-    "phoneNumber": "323-656-1812",
-    "coordinates": {
-        "latitude": 34.09777,
-        "longitude": -118.365224
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "8000 Sunset Blvd.",
-        "streetAddressLine2": "B110",
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900462439"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
     },
     "brandName": "Starbucks",
     "ownershipTypeCode": "CO",
     "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["8000 Sunset Blvd.", "B110", "Los Angeles, CA 90046"],
+    "openStatusText": "Closes in 8 mins",
+    "addressLines": [
+      "10 Lower Spadina Avenue",
+      "Suite 101"
+    ],
     "mop": {
-        "ready": false,
-        "wait": null
+      "ready": false,
+      "wait": null
     },
-    "schedule": [{
+    "schedule": [
+      {
         "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "09:00 to 09:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "08:30 to 04:00",
         "open": true,
         "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "08:30 to 04:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "08:30 to 04:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "08:30 to 04:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
+        "hours": "08:30 to 04:00",
         "open": true,
         "holiday": ""
-    }],
-    "features": [{
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "09:00 to 09:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "CL",
+        "name": "Starbucks Reserve"
+      },
+      {
         "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "sunset-crescent-heights-8000-sunset-blvd-los-angeles-ca-900462439-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "9506-95463",
-    "id": "17873",
-    "name": "Pico & San Vicente",
-    "phoneNumber": "323-936-5032",
-    "coordinates": {
-        "latitude": 34.048457,
-        "longitude": -118.337222
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "4700 West Pico Blvd",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900194267"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:30 PM",
-    "addressLines": ["4700 West Pico Blvd", "Los Angeles, CA 90019"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:30 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:30 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:30 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:30 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:30 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:30 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:30 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
+        "name": "Oven-Warmed Food"
+      },
+      {
         "code": "WF",
-        "name": "Wireless Hotspot"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UC",
-        "name": "tbd - UCP"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "pico-san-vicente-4700-west-pico-blvd-los-angeles-ca-900194267-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "6729-74640",
-    "id": "12058",
-    "name": "Santa Monica & La Brea",
-    "phoneNumber": "323-874-2135",
-    "coordinates": {
-        "latitude": 34.090357,
-        "longitude": -118.344252
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "7100 Santa Monica Blvd",
-        "streetAddressLine2": "Suite 140",
-        "streetAddressLine3": "West Hollywood Gateway",
-        "city": "West Hollywood",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900465896"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["7100 Santa Monica Blvd", "Suite 140", "West Hollywood, CA 90046"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "WF",
-        "name": "Wireless Hotspot"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "santa-monica-la-brea-7100-santa-monica-blvd-west-hollywood-gateway-west"
-}, {
-    "recommendation": {},
-    "storeNumber": "22601-215486",
-    "id": "1007178",
-    "name": "Highland & Willoughby",
-    "phoneNumber": "323-493-1868",
-    "coordinates": {
-        "latitude": 34.086929,
-        "longitude": -118.338858
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "859 N. Highland Avenue",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900383416"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 11:00 PM",
-    "addressLines": ["859 N. Highland Avenue", "Los Angeles, CA 90038"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "5:00 AM to 11:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "5:00 AM to 8:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "5:00 AM to 8:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "5:00 AM to 8:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "5:00 AM to 8:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "5:00 AM to 8:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "5:00 AM to 8:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "DT",
-        "name": "Drive-Thru"
-    }, {
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "SQ",
-        "name": "tbd"
-    }, {
+        "name": "Wi-Fi"
+      },
+      {
         "code": "RW",
         "name": "My Starbucks Rewards"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }],
-    "slug": "highland-willoughby-859-n-highland-avenue-los-angeles-ca-900383416-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "5401-721",
-    "id": "13341",
-    "name": "Wilshire & Santa Monica",
-    "phoneNumber": "(310) 552-3133",
-    "coordinates": {
-        "latitude": 34.066665,
-        "longitude": -118.410299
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "9811 S. Santa Monica Blvd",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Beverly Hills",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "902121604"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["9811 S. Santa Monica Blvd", "Beverly Hills, CA 90212"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "CL",
-        "name": "Starbucks Reserve-Clover Brewed"
-    }, {
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "WF",
-        "name": "Wireless Hotspot"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
+      },
+      {
         "code": "CD",
         "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
+      },
+      {
         "code": "LB",
-        "name": "LaBoulange"
-    }, {
+        "name": "La Boulange"
+      },
+      {
         "code": "XO",
         "name": "Mobile Order and Pay"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
+      },
+      {
         "code": "LU",
         "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "wilshire-santa-monica-9811-s-santa-monica-blvd-beverly-hills-ca-90212160"
-}, {
+      },
+      {
+        "code": "CS",
+        "name": "tbd - Coffee Scale"
+      }
+    ],
+    "slug": "spadina-queens-quay-10-lower-spadina-avenue-toronto-on-m-5-v-2-z-2-ca"
+  },
+  {
     "recommendation": {},
-    "storeNumber": "21866-169146",
-    "id": "1006810",
-    "name": "Ralph's- Hollywood, CA #100",
-    "phoneNumber": "323-512-8382",
+    "storeNumber": "21792-214225",
+    "id": "1006990",
+    "name": "MARS - University & College",
+    "phoneNumber": "(416) 599-8533",
     "coordinates": {
-        "latitude": 34.098715,
-        "longitude": -118.348393
+      "latitude": 43.659559,
+      "longitude": -79.389792
     },
     "regulations": [],
     "address": {
-        "streetAddressLine1": "7257 W Sunset Blvd",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900463409"
+      "streetAddressLine1": "661 University Avenue",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5G 1M1"
     },
     "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "LS",
-    "open": true,
-    "openStatusText": "Open until 9:00 PM",
-    "addressLines": ["7257 W Sunset Blvd", "Los Angeles, CA 90046"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }],
-    "slug": "ralphs-hollywood-ca-100-7257-w-sunset-blvd-los-angeles-ca-900463409-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "9228-279424",
-    "id": "1025847",
-    "name": "2049 Century Park East & Olympic",
-    "phoneNumber": "2133939132",
-    "coordinates": {
-        "latitude": 34.059002,
-        "longitude": -118.41325
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "2049 Century Park East",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Century City",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "90067"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
     },
     "brandName": "Starbucks",
     "ownershipTypeCode": "CO",
     "open": false,
     "openStatusText": "Closed",
-    "addressLines": ["2049 Century Park East", "Century City, CA 90067"],
+    "addressLines": [
+      "661 University Avenue"
+    ],
     "mop": {
-        "ready": false,
-        "wait": null
+      "ready": false,
+      "wait": null
     },
-    "schedule": [{
+    "schedule": [
+      {
         "dayName": "Today",
-        "hours": "Closed",
-        "open": false,
+        "hours": "10:00 to 05:00",
+        "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tomorrow",
-        "hours": "Closed",
-        "open": false,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "4:30 AM to 3:00 PM",
+        "hours": "06:00 to 07:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tuesday",
-        "hours": "4:30 AM to 3:00 PM",
+        "hours": "06:00 to 07:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Wednesday",
-        "hours": "4:30 AM to 3:00 PM",
+        "hours": "06:00 to 07:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Thursday",
-        "hours": "4:30 AM to 3:00 PM",
+        "hours": "06:00 to 07:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Friday",
-        "hours": "4:30 AM to 3:00 PM",
+        "hours": "06:00 to 07:00",
         "open": true,
         "holiday": ""
-    }],
-    "features": [{
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "10:00 to 05:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "CL",
+        "name": "Starbucks Reserve"
+      },
+      {
         "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
+        "name": "Oven-Warmed Food"
+      },
+      {
         "code": "WF",
-        "name": "Wireless Hotspot"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
+        "name": "Wi-Fi"
+      },
+      {
         "code": "LB",
-        "name": "LaBoulange"
-    }, {
+        "name": "La Boulange"
+      },
+      {
         "code": "XO",
         "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
+      },
+      {
         "code": "LU",
         "name": "Lunch"
-    }, {
+      },
+      {
         "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "2049-century-park-east-olympic-2049-century-park-east-century-city-ca-90067-us"
-}, {
+        "name": "tbd - Playbook Store System"
+      }
+    ],
+    "slug": "mars-university-college-661-university-avenue-toronto-on-m-5-g-1-m-1-ca"
+  },
+  {
     "recommendation": {},
-    "storeNumber": "9232-9081",
-    "id": "11138",
-    "name": "Watt Plaza",
-    "phoneNumber": "(310) 553-8226",
+    "storeNumber": "28762-250887",
+    "id": "1014482",
+    "name": "King & Sherbourne",
+    "phoneNumber": "647-638-3291",
     "coordinates": {
-        "latitude": 34.061035,
-        "longitude": -118.414937
+      "latitude": 43.651213,
+      "longitude": -79.367921
     },
     "regulations": [],
     "address": {
-        "streetAddressLine1": "1875 Century Park East",
-        "streetAddressLine2": null,
-        "streetAddressLine3": "Watt Plaza Towers",
-        "city": "Century City",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900672337"
+      "streetAddressLine1": "251 King Street East",
+      "streetAddressLine2": "A1",
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5A 1K2"
     },
     "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
     },
     "brandName": "Starbucks",
     "ownershipTypeCode": "CO",
     "open": false,
     "openStatusText": "Closed",
-    "addressLines": ["1875 Century Park East", "Century City, CA 90067"],
+    "addressLines": [
+      "251 King Street East",
+      "A1"
+    ],
     "mop": {
-        "ready": false,
-        "wait": null
+      "ready": false,
+      "wait": null
     },
-    "schedule": [{
+    "schedule": [
+      {
         "dayName": "Today",
-        "hours": "Closed",
-        "open": false,
+        "hours": "07:00 to 06:00",
+        "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tomorrow",
-        "hours": "Closed",
-        "open": false,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "5:00 AM to 3:00 PM",
+        "hours": "07:00 to 06:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Tuesday",
-        "hours": "5:00 AM to 3:00 PM",
+        "hours": "07:00 to 06:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Wednesday",
-        "hours": "5:00 AM to 3:00 PM",
+        "hours": "07:00 to 06:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Thursday",
-        "hours": "5:00 AM to 3:00 PM",
+        "hours": "07:00 to 06:00",
         "open": true,
         "holiday": ""
-    }, {
+      },
+      {
         "dayName": "Friday",
-        "hours": "5:00 AM to 3:00 PM",
+        "hours": "07:00 to 06:00",
         "open": true,
         "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "watt-plaza-1875-century-park-east-watt-plaza-towers-century-c"
-}, {
-    "recommendation": {},
-    "storeNumber": "5402-1195",
-    "id": "11568",
-    "name": "Sunset & La Brea",
-    "phoneNumber": "(323) 469-6994",
-    "coordinates": {
-        "latitude": 34.098151,
-        "longitude": -118.343531
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "7055 SUNSET BLVD",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900287509"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["7055 SUNSET BLVD", "Los Angeles, CA 90028"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "07:00 to 06:00",
         "open": true,
         "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "sunset-la-brea-7055-sunset-blvd-los-angeles-ca-900287509-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "507-450",
-    "id": "9035",
-    "name": "Larchmont & Beverly",
-    "phoneNumber": "323-469-1081",
-    "coordinates": {
-        "latitude": 34.074908,
-        "longitude": -118.323461
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "206 North Larchmont",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900043707"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["206 North Larchmont", "Los Angeles, CA 90004"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "larchmont-beverly-206-north-larchmont-los-angeles-ca-900043707-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "14412-118485",
-    "id": "18674",
-    "name": "La Cienega & Jefferson",
-    "phoneNumber": "323-938-0821",
-    "coordinates": {
-        "latitude": 34.026772,
-        "longitude": -118.371795
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "3344 S. La Cienega Blvd",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900163115"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 7:00 PM",
-    "addressLines": ["3344 S. La Cienega Blvd", "Los Angeles, CA 90016"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 7:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 7:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 7:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 7:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 7:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 7:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 7:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "la-cienega-jefferson-3344-s-la-cienega-blvd-los-angeles-ca-900163115-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "74586-39039",
-    "id": "16222",
-    "name": "Vons-Los Angeles #2229",
-    "phoneNumber": "3234614167",
-    "coordinates": {
-        "latitude": 34.084362,
-        "longitude": -118.326967
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "727 N Vine St",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900383713"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "LS",
-    "open": true,
-    "openStatusText": "Open until 11:00 PM",
-    "addressLines": ["727 N Vine St", "Los Angeles, CA 90038"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "5:30 AM to 11:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "5:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "5:30 AM to 11:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "BA",
-        "name": "Bakery"
-    }, {
-        "code": "RW",
-        "name": "My Starbucks Rewards"
-    }],
-    "slug": "vons-los-angeles-2229-727-n-vine-st-los-angeles-ca-900383713-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "9505-96843",
-    "id": "7663",
-    "name": "Crenshaw & Washington, Los Angeles",
-    "phoneNumber": "323-734-0281",
-    "coordinates": {
-        "latitude": 34.040151,
-        "longitude": -118.330501
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "4177 W. Washington Blvd.",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900181055"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 12:00 AM",
-    "addressLines": ["4177 W. Washington Blvd.", "Los Angeles, CA 90018"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "4:00 AM to 12:00 AM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "4:00 AM to 12:00 AM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "4:00 AM to 12:00 AM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "4:00 AM to 12:00 AM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "4:00 AM to 12:00 AM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "4:00 AM to 12:00 AM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "4:00 AM to 12:00 AM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "DT",
-        "name": "Drive-Thru"
-    }, {
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UC",
-        "name": "tbd - UCP"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "crenshaw-washington-los-angeles-4177-w-washington-blvd-los-angeles-ca-900181055-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "76949-131627",
-    "id": "7848",
-    "name": "Target Los Angeles T-1306",
-    "phoneNumber": "(310) 895-1131",
-    "coordinates": {
-        "latitude": 34.023407,
-        "longitude": -118.373792
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "3535 S La Cienega Blvd",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900164407"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "LS",
-    "open": true,
-    "openStatusText": "Open until 10:00 PM",
-    "addressLines": ["3535 S La Cienega Blvd", "Los Angeles, CA 90016"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "8:00 AM to 10:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "8:00 AM to 10:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "8:00 AM to 10:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "8:00 AM to 10:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "8:00 AM to 10:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "8:00 AM to 10:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "8:00 AM to 10:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }],
-    "slug": "target-los-angeles-t-1306-3535-s-la-cienega-blvd-los-angeles-ca-900164407-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "52258-279471",
-    "id": "1024860",
-    "name": "Santa Monica & Vine",
-    "phoneNumber": "3238714171",
-    "coordinates": {
-        "latitude": 34.090389,
-        "longitude": -118.32626
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "6260 Santa Monica Blvd",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900381704"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["6260 Santa Monica Blvd", "Los Angeles, CA 90038"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "RW",
-        "name": "My Starbucks Rewards"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "CS",
-        "name": "tbd - Coffee Scale"
-    }],
-    "slug": "santa-monica-vine-6260-santa-monica-blvd-los-angeles-ca-900381704-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "5250-901",
-    "id": "13312",
-    "name": "Venice & Culver",
-    "phoneNumber": "(310) 558-0407",
-    "coordinates": {
-        "latitude": 34.027136,
-        "longitude": -118.392767
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "8985 Venice Blvd",
-        "streetAddressLine2": "Ste CB-2",
-        "streetAddressLine3": "Venice Crossroads Shopping Center",
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900343344"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["8985 Venice Blvd", "Ste CB-2", "Los Angeles, CA 90034"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "WF",
-        "name": "Wireless Hotspot"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "venice-culver-8985-venice-blvd-venice-crossroads-shopping-center"
-}, {
-    "recommendation": {},
-    "storeNumber": "6451-54039",
-    "id": "9247",
-    "name": "National & Castle Heights",
-    "phoneNumber": "310-839-1483",
-    "coordinates": {
-        "latitude": 34.03105,
-        "longitude": -118.400976
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "9824 National Blvd",
-        "streetAddressLine2": null,
-        "streetAddressLine3": "Cheviot Hills Shopping Center",
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900342739"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["9824 National Blvd", "Los Angeles, CA 90034"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "national-castle-heights-9824-national-blvd-cheviot-hills-shopping-center-l"
-}, {
-    "recommendation": {},
-    "storeNumber": "21687-212688",
-    "id": "1006804",
-    "name": "Ralphs - Los Angeles #283",
-    "phoneNumber": "323-292-0633",
-    "coordinates": {
-        "latitude": 34.020441,
-        "longitude": -118.35481
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "5080 Obama Blvd",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "90016"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "LS",
-    "open": true,
-    "openStatusText": "Open until 9:00 PM",
-    "addressLines": ["5080 Obama Blvd", "Los Angeles, CA 90016"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 9:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }],
-    "slug": "ralphs-los-angeles-283-5080-obama-blvd-los-angeles-ca-90016-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "5620-1957",
-    "id": "9159",
-    "name": "Highland & Franklin",
-    "phoneNumber": "323-850-7360",
-    "coordinates": {
-        "latitude": 34.105349,
-        "longitude": -118.336826
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "1900 N Highland",
-        "streetAddressLine2": "#1",
-        "streetAddressLine3": null,
-        "city": "Hollywood",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900682997"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["1900 N Highland", "#1", "Hollywood, CA 90068"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "WF",
-        "name": "Wireless Hotspot"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "highland-franklin-1900-n-highland-hollywood-ca-900682997-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "22916-225624",
-    "id": "1007064",
-    "name": "Sunset & Vine",
-    "phoneNumber": "323-464-1859",
-    "coordinates": {
-        "latitude": 34.097837,
-        "longitude": -118.326437
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "6290 Sunset Blvd.",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Hollywood",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900288711"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["6290 Sunset Blvd.", "Hollywood, CA 90028"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
+      }
+    ],
+    "features": [
+      {
         "code": "CL",
-        "name": "Starbucks Reserve-Clover Brewed"
-    }, {
+        "name": "Starbucks Reserve"
+      },
+      {
         "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
+        "name": "Oven-Warmed Food"
+      },
+      {
         "code": "WF",
-        "name": "Wireless Hotspot"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "SQ",
-        "name": "tbd"
-    }, {
+        "name": "Wi-Fi"
+      },
+      {
         "code": "RW",
         "name": "My Starbucks Rewards"
-    }, {
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "UE",
+        "name": "tbd - Uber Eats"
+      }
+    ],
+    "slug": "king-sherbourne-251-king-street-east-toronto-on-m-5-a-1-k-2-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "54363-280205",
+    "id": "1022262",
+    "name": "132 Queens Quay East",
+    "phoneNumber": "6472997056",
+    "coordinates": {
+      "latitude": 43.644383,
+      "longitude": -79.36815
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "132 Queens Quay East",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5A 3Y5"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "132 Queens Quay East"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "09:00 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "08:30 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "08:30 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "08:30 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "08:30 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "08:30 to 04:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "09:00 to 04:30",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "RW",
+        "name": "My Starbucks Rewards"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "GO",
+        "name": "Google Wi-Fi"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
         "code": "PS",
-        "name": "Playbook Store System"
-    }, {
+        "name": "tbd - Playbook Store System"
+      },
+      {
+        "code": "UE",
+        "name": "tbd - Uber Eats"
+      }
+    ],
+    "slug": "132-queens-quay-east-132-queens-quay-east-toronto-on-m-5-a-3-y-5-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "58364-290635",
+    "id": "1024784",
+    "name": "METRO YONGE AND COLLEGE #63",
+    "phoneNumber": "4165972800",
+    "coordinates": {
+      "latitude": 43.660837,
+      "longitude": -79.383063
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "444 Yonge Street",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5B2H4"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "444 Yonge Street"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "08:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "08:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "08:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "08:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "08:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "08:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "08:00 to 08:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [],
+    "slug": "metro-yonge-and-college-63-444-yonge-street-toronto-on-m-5-b-2-h-4-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "4636-255353",
+    "id": "1014947",
+    "name": "King & Bathurst",
+    "phoneNumber": "4165960101",
+    "coordinates": {
+      "latitude": 43.643864,
+      "longitude": -79.401814
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "625 King Street West",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5V 1M5"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "625 King Street West"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "07:30 to 06:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "07:00 to 06:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "07:00 to 06:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "07:00 to 06:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "07:00 to 06:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "07:00 to 06:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "07:30 to 06:30",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "UE",
+        "name": "tbd - Uber Eats"
+      }
+    ],
+    "slug": "king-bathurst-625-king-street-west-toronto-on-m-5-v-1-m-5-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "75438-106189",
+    "id": "754",
+    "name": "University of Toronto/Toronto/Medic",
+    "phoneNumber": "4165984342",
+    "coordinates": {
+      "latitude": 43.660852,
+      "longitude": -79.393761
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "1 King's College Circle",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5S 1A8"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "open": null,
+    "openStatusText": "",
+    "addressLines": [
+      "1 King's College Circle"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      }
+    ],
+    "slug": "university-of-toronto-toronto-medic-1-kings-college-circle-toronto-on-m-5-s-1-a-8-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "15689-162706",
+    "id": "68126",
+    "name": "Bay & Grosvenor",
+    "phoneNumber": "(416) 925-1045",
+    "coordinates": {
+      "latitude": 43.662488,
+      "longitude": -79.386277
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "37 Grosvenor Street",
+      "streetAddressLine2": null,
+      "streetAddressLine3": "Murano",
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M4Y 3G5"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "37 Grosvenor Street"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "07:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "05:30 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "05:30 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "05:30 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "05:30 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "05:30 to 08:00",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "07:00 to 07:00",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      }
+    ],
+    "slug": "bay-grosvenor-37-grosvenor-street-murano-toronto-on-m-4-y-3-g-5-"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "47561-255989",
+    "id": "1017466",
+    "name": "Front & Berkeley",
+    "phoneNumber": "647-629-0219",
+    "coordinates": {
+      "latitude": 43.651407,
+      "longitude": -79.364329
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "351 King Street East",
+      "streetAddressLine2": "60",
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5A 1L1"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "351 King Street East",
+      "60"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "07:00 to 07:15",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "07:00 to 07:15",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "07:00 to 07:15",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "07:00 to 07:15",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "07:00 to 07:15",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "07:00 to 07:15",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "07:00 to 07:15",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "RW",
+        "name": "My Starbucks Rewards"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "PS",
+        "name": "tbd - Playbook Store System"
+      },
+      {
+        "code": "UE",
+        "name": "tbd - Uber Eats"
+      }
+    ],
+    "slug": "front-berkeley-351-king-street-east-toronto-on-m-5-a-1-l-1-ca"
+  },
+  {
+    "recommendation": {},
+    "storeNumber": "22839-224105",
+    "id": "1007003",
+    "name": "Bathurst & Fleet",
+    "phoneNumber": "(416) 815-8076",
+    "coordinates": {
+      "latitude": 43.636941,
+      "longitude": -79.400064
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "600 Fleet Street",
+      "streetAddressLine2": "18",
+      "streetAddressLine3": null,
+      "city": "Toronto",
+      "countrySubdivisionCode": "ON",
+      "countryCode": "CA",
+      "postalCode": "M5V 1B7"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -240,
+      "windowsTimeZoneId": "Eastern Standard Time",
+      "olsonTimeZoneId": "GMT-05:00 America/Toronto"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "open": false,
+    "openStatusText": "Closed",
+    "addressLines": [
+      "600 Fleet Street",
+      "18"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "Closed",
+        "open": false,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "09:00 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "09:00 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "09:00 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "09:00 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "09:00 to 04:30",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "Closed",
+        "open": false,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WA",
+        "name": "Oven-Warmed Food"
+      },
+      {
+        "code": "WF",
+        "name": "Wi-Fi"
+      },
+      {
+        "code": "RW",
+        "name": "My Starbucks Rewards"
+      },
+      {
+        "code": "CD",
+        "name": "Mobile Payment"
+      },
+      {
+        "code": "DR",
+        "name": "Digital Rewards"
+      },
+      {
+        "code": "LB",
+        "name": "La Boulange"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
         "code": "CS",
         "name": "tbd - Coffee Scale"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
+      },
+      {
         "code": "UE",
         "name": "tbd - Uber Eats"
-    }],
-    "slug": "sunset-vine-6290-sunset-blvd-hollywood-ca-900288711-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "5771-15093",
-    "id": "15444",
-    "name": "Washington & Culver",
-    "phoneNumber": "310-204-1075",
-    "coordinates": {
-        "latitude": 34.022193,
-        "longitude": -118.39623
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "9718 Washington Blvd.",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Culver City",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "902322722"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["9718 Washington Blvd.", "Culver City, CA 90232"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "GO",
-        "name": "Google Wi-Fi"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "washington-culver-9718-washington-blvd-culver-city-ca-902322722-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "5461-1452",
-    "id": "9353",
-    "name": "Sunset & Gower",
-    "phoneNumber": "(323) 467-6404",
-    "coordinates": {
-        "latitude": 34.097346,
-        "longitude": -118.322498
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "6102 W. Sunset Blvd.",
-        "streetAddressLine2": "Unit 6102",
-        "streetAddressLine3": null,
-        "city": "Los Angeles",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900286424"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["6102 W. Sunset Blvd.", "Unit 6102", "Los Angeles, CA 90028"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "5:30 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "5:30 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "5:30 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "5:30 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "5:30 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "5:30 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "5:30 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "WF",
-        "name": "Wireless Hotspot"
-    }, {
-        "code": "VS",
-        "name": "Verismo"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "sunset-gower-6102-w-sunset-blvd-los-angeles-ca-900286424-us"
-}, {
-    "recommendation": {},
-    "storeNumber": "16980-167664",
-    "id": "90032",
-    "name": "Hollywood & Vine",
-    "phoneNumber": "323-464-4601",
-    "coordinates": {
-        "latitude": 34.101461,
-        "longitude": -118.326497
-    },
-    "regulations": [],
-    "address": {
-        "streetAddressLine1": "6290 West Hollywood Blvd",
-        "streetAddressLine2": null,
-        "streetAddressLine3": null,
-        "city": "Hollywood",
-        "countrySubdivisionCode": "CA",
-        "countryCode": "US",
-        "postalCode": "900285309"
-    },
-    "timeZoneInfo": {
-        "currentTimeOffset": -420,
-        "windowsTimeZoneId": "Pacific Standard Time",
-        "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
-    },
-    "brandName": "Starbucks",
-    "ownershipTypeCode": "CO",
-    "open": true,
-    "openStatusText": "Open until 6:00 PM",
-    "addressLines": ["6290 West Hollywood Blvd", "Hollywood, CA 90028"],
-    "mop": {
-        "ready": false,
-        "wait": null
-    },
-    "schedule": [{
-        "dayName": "Today",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tomorrow",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Monday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Tuesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Wednesday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Thursday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }, {
-        "dayName": "Friday",
-        "hours": "6:00 AM to 6:00 PM",
-        "open": true,
-        "holiday": ""
-    }],
-    "features": [{
-        "code": "WA",
-        "name": "Oven-warmed Food"
-    }, {
-        "code": "WF",
-        "name": "Wireless Hotspot"
-    }, {
-        "code": "CD",
-        "name": "Mobile Payment"
-    }, {
-        "code": "DR",
-        "name": "Digital Rewards"
-    }, {
-        "code": "LB",
-        "name": "LaBoulange"
-    }, {
-        "code": "XO",
-        "name": "Mobile Order and Pay"
-    }, {
-        "code": "MX",
-        "name": "Music Experience"
-    }, {
-        "code": "NB",
-        "name": "Nitro Cold Brew"
-    }, {
-        "code": "BE",
-        "name": "Blonde Espresso"
-    }, {
-        "code": "LU",
-        "name": "Lunch"
-    }, {
-        "code": "RW",
-        "name": "My Starbucks Rewards"
-    }, {
-        "code": "PS",
-        "name": "Playbook Store System"
-    }, {
-        "code": "WC",
-        "name": "Wireless Charging"
-    }, {
-        "code": "UE",
-        "name": "tbd - Uber Eats"
-    }],
-    "slug": "hollywood-vine-6290-west-hollywood-blvd-hollywood-ca-900285309-us"
-}]
+      }
+    ],
+    "slug": "bathurst-fleet-600-fleet-street-toronto-on-m-5-v-1-b-7-ca"
+  }
+]
