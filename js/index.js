@@ -167,7 +167,7 @@ function displayStores(stores) {
       address.postalCode
     }</span>
         </div>
-        <div class="store-phone-number"><i class="fas fa-coffee"></i>  ${phone}</div>
+        <div class="store-phone-number"><i class="fas fa-coffee bounce"></i>  ${phone}</div>
     </div>
     <div class="store-number-container">
         <div class="store-number">
