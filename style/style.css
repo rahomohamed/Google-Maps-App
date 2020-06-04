@@ -4,35 +4,37 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
-    background-color: aqua;
+    background-image: url(https://data.whicdn.com/images/309996536/original.png);
 }
 
 #map {
-    width: 80%;
-    height: 90%; 
-    left: 200px;
-    top: 30px;
+    width: 70%;
+    height: 80%; 
+    left: 380px;
+    top: 70px;
+    border: 3px solid #39bbf7;
+    border-radius: 50px;
 }
 
-.title {
+/* .title {
     position: absolute;
     top: 100px;
-    left: 100px;
+    left: 50px;
     font-size: 88px;
     z-index: 100;
     font-weight: bold;
     text-transform: uppercase;
     color: #333; 
-}
+} */
 
 .search-container {
-    width: 400px;
+    width: 350px;
     height: 60px;
-    background-color: #454E53;
+    background-color: #f7f7f7;
     position: absolute;
     z-index: 100;
-    top: 230px;
-    left: 100px;
+    top: 100px;
+    left: 10px;
     border-radius: 30px;
 }
 
@@ -50,7 +52,7 @@ body {
     font-size: 25px;
     border: none;
     background-color: transparent;
-    color: white;
+    color: #514C4C;
 } 
 
 .search-container input:focus {
@@ -59,16 +61,16 @@ body {
 
 .search i {
 font-size: 25px;
-color: white;
+color: black;
 }
 
 .stores-list-container {
-width: 400px;
+width: 350px;
 position: absolute;
 z-index: 100;
-background-color: white;
-left: 100px;
-top: 310px;
+background-color: #f7f7f7;
+left: 10px;
+top: 170px;
 border-radius: 30px;
 bottom: 20px;
 }
@@ -109,7 +111,7 @@ bottom: 20px;
 .store-number {
     width: 30px;
     height: 30px;
-    background-color: #454E53;
+    background-color: #39bbf7;
     color: white;
     display: flex;
     justify-content: center;
@@ -120,3 +122,56 @@ bottom: 20px;
 .store-address span {
     display: block;
 }
+
+.store-info-window {
+    width: 250px;
+    height: 130px;
+    font-size: 12px;
+    padding: 8px;
+}
+
+.store-info-name {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(0,0,0, 0.87);
+}
+
+.store-info-status {
+    margin-top: 6px;
+    border-bottom: 1px solid #00000029;
+    padding-bottom: 6px;
+}
+
+.store-info-address, .store-info-phone {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.store-info-address .circle, .store-info-phone .circle {
+    width: 20px;
+    height: 20px;
+    background-color: #39bbf7;
+    border-radius: 50%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.store-container-background {
+    width: 100%;
+    display: flex;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 18px;
+    transition: background 0.2s ease-in-out;
+}
+
+.store-container-background:hover {
+    background-color: #ccc;
+}
+
