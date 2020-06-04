@@ -1,9 +1,3 @@
-## Design Link
-http://www.figma.com/file/HuauCfrLa39DV0lK76LLZb/Google-Maps?node-id=0%3A2
+## Starbucks Locator
 
-## Google Maps API Key
-
-## FontAwesome Link
-
-https://kit.fontawesome.com/c939d0e917.js
-
+Helps you find Starbucks locations near you and lets you filter list of all stores by postal code. This application was built using Node, HTML, CSS, and Google Maps API.
