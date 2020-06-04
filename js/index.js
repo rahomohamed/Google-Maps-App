@@ -153,7 +153,7 @@ function setOnClickListener() {
   });
 }
 
-function displayStores() {
+function displayStores(stores) {
   let storesHtml = "";
   stores.forEach(function (store, index) {
     let address = store.address;
