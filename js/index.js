@@ -1,9 +1,9 @@
-var map;
-var markers = [];
-var infoWindow;
+let map;
+let markers = [];
+let infoWindow;
 
 function initMap() {
-  var toronto = {
+  let toronto = {
     lat: 43.648161,
     lng: -79.383075,
   };
@@ -119,21 +119,33 @@ function initMap() {
 }
 
 function searchStores(){
-  var foundStores = [];
-  var searchInput = document.getElementById('postal-code-input').value.toUpperCase().substring(0, 3);
+  let foundStores = [];
+  let searchInput = document.getElementById('postal-code-input').value.toUpperCase().substring(0, 3);
   if(searchInput){
       stores.forEach(function(store){
-          var postalCode = store.address.postalCode.toUpperCase().substring(0, 3);
-          if(postalCode === searchInput){
+          let postal = store.address.postalCode.toUpperCase().substring(0, 3);
+          if(postal === searchInput){
               foundStores.push(store);
           }
       });
-      console.log(foundStores)
-    }
+ 
+    } else {
+      foundStores = stores;
   }
+  clearLocations();
+}
+
+  function clearLocations() {
+    infoWindow.close();
+    for (let i = 0; i < markers.length; i++) {
+      markers[i].setMap(null);
+    }
+    markers.length = 0;
+}
+
 
 function setOnClickListener() {
-  var storeElements = document.querySelectorAll('.store-container');
+  let storeElements = document.querySelectorAll('.store-container');
   storeElements.forEach(function(elem, index){
       elem.addEventListener('click', function(){
           google.maps.event.trigger(markers[index], 'click');
@@ -142,10 +154,10 @@ function setOnClickListener() {
 }
 
 function displayStores() {
-  var storesHtml = "";
+  let storesHtml = "";
   stores.forEach(function (store, index) {
-    var address = store.address;
-    var phone = store.phoneNumber;
+    let address = store.address;
+    let phone = store.phoneNumber;
     storesHtml += `  <div class="store-container">
     <div class="store-container-background">
     <div class="store-info-container">
@@ -153,7 +165,7 @@ function displayStores() {
             <span>${address.streetAddressLine1}</span>
             <span>${address.city}, ${address.countrySubdivisionCode} ${address.postalCode}</span>
         </div>
-        <div class="store-phone-number">${phone}</div>
+        <div class="store-phone-number"><i class="fas fa-coffee"></i>  ${phone}</div>
     </div>
     <div class="store-number-container">
         <div class="store-number">
@@ -167,15 +179,15 @@ function displayStores() {
 }
 
 function showStoresMarkers() {
-  var bounds = new google.maps.LatLngBounds();
+  let bounds = new google.maps.LatLngBounds();
   stores.forEach(function (store, index) {
-    var latlng = new google.maps.LatLng(
+    let latlng = new google.maps.LatLng(
       store.coordinates.latitude,
       store.coordinates.longitude);
-var name = store.name;
-var address = store.address.streetAddressLine1;
-var statusText = store.openStatusText;
-var phone = store.phoneNumber;
+let name = store.name;
+let address = store.address.streetAddressLine1;
+let statusText = store.openStatusText;
+let phone = store.phoneNumber;
 bounds.extend(latlng);
 createMarker(latlng, name, address, statusText, phone, index);
 })
@@ -194,7 +206,7 @@ function pinSymbol(color) {
 } 
 
 function createMarker(latlng, name, address, statusText, phone, index) {
-  var html = `
+  let html = `
   <div class="store-info-window">
   <div class="store-info-name">
   ${name}
@@ -217,7 +229,7 @@ function createMarker(latlng, name, address, statusText, phone, index) {
   </div>
   </div>
   `;
-  var marker = new google.maps.Marker({
+  let marker = new google.maps.Marker({
     map: map,
     icon: pinSymbol('#00704A'),
     animation: google.maps.Animation.DROP,

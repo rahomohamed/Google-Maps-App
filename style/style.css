@@ -9,9 +9,9 @@ body {
 
 #map {
   width: 70%;
-  height: 70%;
+  height: 75%;
   left: 380px;
-  top: 80px;
+  top: 55px;
   border: 3px solid #db99ff;
   border-radius: 50px;
 }
@@ -138,9 +138,8 @@ body {
 }
 
 .store-info-window {
-  width: 250px;
-  height: 130px;
-  font-size: 12px;
+  min-width: 260px;
+  font-size: 15px;
   font-family: "Open Sans", sans-serif;
   padding: 8px;
 }
@@ -167,8 +166,8 @@ body {
 
 .store-info-address .circle,
 .store-info-phone .circle {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   background-color: #db99ff;
   border-radius: 50%;
   color: #f7f7f7;
