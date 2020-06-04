@@ -108,7 +108,7 @@ function initMap() {
           ]
       },
       {}
-      
+
       ]
 
   });
@@ -182,6 +182,17 @@ createMarker(latlng, name, address, statusText, phone, index);
 map.fitBounds(bounds);
 }
 
+function pinSymbol(color) {
+  return {
+      path: 'M 0,0 C -2,-20 -10,-22 -10,-30 A 10,10 0 1,1 10,-30 C 10,-22 2,-20 0,0 z',
+      fillColor: color,
+      fillOpacity: 1,
+      strokeColor: '#000',
+      strokeWeight: 2,
+      scale: 1
+  };
+} 
+
 function createMarker(latlng, name, address, statusText, phone, index) {
   var html = `
   <div class="store-info-window">
@@ -208,8 +219,9 @@ function createMarker(latlng, name, address, statusText, phone, index) {
   `;
   var marker = new google.maps.Marker({
     map: map,
-    position: latlng,
-    label: `${index+1}`
+    icon: pinSymbol('#00704A'),
+    animation: google.maps.Animation.DROP,
+    position: latlng
   });
   google.maps.event.addListener(marker, 'click', function() {
     infoWindow.setContent(html);
