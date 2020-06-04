@@ -12,169 +12,103 @@ function initMap() {
     zoom: 11,
     styles: [
         {
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#ff9ebe"
-            },
-            {
-              "saturation": -65
-            },
-            {
-              "lightness": 15
-            }
-          ]
-        },
-        {
-          "elementType": "labels.icon",
-          "stylers": [
-            {
-              "visibility": "off"
-            }
-          ]
-        },
-        {
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#000000"
-            }
-          ]
-        },
-        {
-          "elementType": "labels.text.stroke",
-          "stylers": [
-            {
-              "color": "#f5f5f5"
-            }
-          ]
-        },
-        {
-          "featureType": "administrative.land_parcel",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#bdbdbd"
-            }
-          ]
-        },
-        {
-          "featureType": "poi",
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#eeeeee"
-            }
-          ]
-        },
-        {
-          "featureType": "poi",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#757575"
-            }
-          ]
-        },
-        {
-          "featureType": "poi.park",
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#e5e5e5"
-            }
-          ]
-        },
-        {
-          "featureType": "poi.park",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#9e9e9e"
-            }
-          ]
-        },
-        {
           "featureType": "road",
-          "elementType": "geometry",
           "stylers": [
-            {
-              "color": "#ffffff"
-            }
+              {
+                  "hue": "#5e00ff"
+              },
+              {
+                  "saturation": -79
+              }
           ]
-        },
-        {
-          "featureType": "road.arterial",
-          "elementType": "labels.text.fill",
+      },
+      {
+          "featureType": "poi",
           "stylers": [
-            {
-              "color": "#757575"
-            }
+              {
+                  "saturation": -78
+              },
+              {
+                  "hue": "#6600ff"
+              },
+              {
+                  "lightness": -47
+              },
+              {
+                  "visibility": "off"
+              }
           ]
-        },
-        {
-          "featureType": "road.highway",
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#dadada"
-            }
-          ]
-        },
-        {
-          "featureType": "road.highway",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#616161"
-            }
-          ]
-        },
-        {
+      },
+      {
           "featureType": "road.local",
-          "elementType": "labels.text.fill",
           "stylers": [
-            {
-              "color": "#9e9e9e"
-            }
+              {
+                  "lightness": 22
+              }
           ]
-        },
-        {
+      },
+      {
+          "featureType": "landscape",
+          "stylers": [
+              {
+                  "hue": "#6600ff"
+              },
+              {
+                  "saturation": -11
+              }
+          ]
+      },
+      {},
+      {},
+      {
+          "featureType": "water",
+          "stylers": [
+              {
+                  "saturation": -65
+              },
+              {
+                  "hue": "#1900ff"
+              },
+              {
+                  "lightness": 8
+              }
+          ]
+      },
+      {
+          "featureType": "road.local",
+          "stylers": [
+              {
+                  "weight": 1.3
+              },
+              {
+                  "lightness": 30
+              }
+          ]
+      },
+      {
+          "featureType": "transit",
+          "stylers": [
+              {
+                  "visibility": "simplified"
+              },
+              {
+                  "hue": "#5e00ff"
+              },
+              {
+                  "saturation": -16
+              }
+          ]
+      },
+      {
           "featureType": "transit.line",
-          "elementType": "geometry",
           "stylers": [
-            {
-              "color": "#e5e5e5"
-            }
+              {
+                  "saturation": -72
+              }
           ]
-        },
-        {
-          "featureType": "transit.station",
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#eeeeee"
-            }
-          ]
-        },
-        {
-          "featureType": "water",
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#c9c9c9"
-            }
-          ]
-        },
-        {
-          "featureType": "water",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#9e9e9e"
-            }
-          ]
-        }
+      },
+      {}
+      
       ]
 
   });
@@ -183,6 +117,20 @@ function initMap() {
   showStoresMarkers();
   setOnClickListener();
 }
+
+function searchStores(){
+  var foundStores = [];
+  var searchInput = document.getElementById('postal-code-input').value.toUpperCase().substring(0, 3);
+  if(searchInput){
+      stores.forEach(function(store){
+          var postalCode = store.address.postalCode.toUpperCase().substring(0, 3);
+          if(postalCode === searchInput){
+              foundStores.push(store);
+          }
+      });
+      console.log(foundStores)
+    }
+  }
 
 function setOnClickListener() {
   var storeElements = document.querySelectorAll('.store-container');

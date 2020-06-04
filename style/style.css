@@ -4,28 +4,24 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
-    background-image: url(https://data.whicdn.com/images/309996536/original.png);
+    background-image: url(https://i.pinimg.com/originals/86/8d/c3/868dc339ecb73acc7097f1efcd83caae.png);
 }
 
 #map {
     width: 70%;
     height: 80%; 
     left: 380px;
-    top: 70px;
-    border: 3px solid #39bbf7;
+    top: 50px;
+    border: 3px solid #db99ff;
     border-radius: 50px;
 }
 
-/* .title {
-    position: absolute;
-    top: 100px;
-    left: 50px;
-    font-size: 88px;
-    z-index: 100;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #333; 
-} */
+.title {
+   color: #db99ff;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 30px;
+   font-weight: 700;
+}
 
 .search-container {
     width: 350px;
@@ -49,7 +45,8 @@ body {
 
 .search-container input {
     width: 100%;
-    font-size: 25px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
     border: none;
     background-color: transparent;
     color: #514C4C;
@@ -60,8 +57,9 @@ body {
 }
 
 .search i {
-font-size: 25px;
+font-size: 20px;
 color: black;
+cursor: pointer;
 }
 
 .stores-list-container {
@@ -92,7 +90,8 @@ bottom: 20px;
 }
 
 .store-address {
-    font-size: 21px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
     color: #514C4C;
     margin-top: 30px;
 }
@@ -111,7 +110,7 @@ bottom: 20px;
 .store-number {
     width: 30px;
     height: 30px;
-    background-color: #39bbf7;
+    background-color: #db99ff;
     color: white;
     display: flex;
     justify-content: center;
@@ -127,11 +126,13 @@ bottom: 20px;
     width: 250px;
     height: 130px;
     font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
     padding: 8px;
 }
 
 .store-info-name {
     font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     color: rgba(0,0,0, 0.87);
 }
@@ -151,7 +152,7 @@ bottom: 20px;
 .store-info-address .circle, .store-info-phone .circle {
     width: 20px;
     height: 20px;
-    background-color: #39bbf7;
+    background-color: #db99ff;
     border-radius: 50%;
     color: #ffffff;
     display: flex;
@@ -174,4 +175,3 @@ bottom: 20px;
 .store-container-background:hover {
     background-color: #ccc;
 }
-
