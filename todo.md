@@ -13,5 +13,5 @@
 - Show the info window DONE
 - Complete the styling of the marker info window DONE
 - Open the info window marker on store selection in stores list DONE
-- Allow a user to search for the store in a zip code DONE 
+- Allow a user to search for the store in a postal code DONE 
 - Add a transition on the hover of an individual store DONE
